@@ -1,4 +1,3 @@
-<script>
 /* Botones de traducción */
 let espanol = document.getElementById("espanol");
 let english = document.getElementById("english");
@@ -111,5 +110,3 @@ function setLanguage(getLanguage){
     alprincipio3.innerHTML = "Im Bestreben der Suche von Funktionalität und Rasse sowie Figur und Charakter reihten wir auch die Linie von Don Salvador Sánchez Barbudo mit NOVELERO XXXII ein. Wahrscheinlich einer der besten rotfuchshaarigen Hengste im Moment. Dieses Pferd abgesehen der besonderen morphologie seiner Bodenfestigkeit und guten übergeordneten Linien, brachte eine Art an Bewegungen mit die unter dem Spanischem Pferd leider aussergewöhnlich ist. Abgesehen der Geräumigkeit und Trittfrequenz dieser, heben sie sich durch deren Federung, deren Anstoss des hinteren Drittels und deren Leichtigkeit der Rückseiten hervor.";
   }
 }
-
-</script>
