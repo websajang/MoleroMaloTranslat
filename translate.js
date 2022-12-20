@@ -18,6 +18,12 @@ let enventa = document.getElementById("enventa");
 let vendidos = document.getElementById("vendidos");
 let nuestrosanimales = document.getElementById("nuestrosanimales");
 
+/*Bienvenidos*/
+let bienvenidostitulo = document.getElementById("bienvenidostitulo");
+let bienvenidostexto1 = document.getElementById("bienvenidostexto1");
+let bienvenidostitulo2 = document.getElementById("bienvenidostitulo2");
+let bienvenidostexto2 = document.getElementById("bienvenidostexto2");
+
 /*Nuestra historia*/
 let alprincipio = document.getElementById("alprincipio");
 let alprincipio1 = document.getElementById("alprincipio1");
