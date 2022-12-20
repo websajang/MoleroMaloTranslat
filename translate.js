@@ -18,6 +18,12 @@ let enventa = document.getElementById("enventa");
 let vendidos = document.getElementById("vendidos");
 let nuestrosanimales = document.getElementById("nuestrosanimales");
 
+/*Nuestra historia*/
+let alprincipio = document.getElementById("alprincipio");
+let alprincipio1 = document.getElementById("alprincipio1");
+let alprincipio2 = document.getElementById("alprincipio2");
+let alprincipio3 = document.getElementById("alprincipio3");
+
 
 /* Eventos de click para cambiar idioma */
 espanol.onclick = ()=>{
@@ -43,66 +49,74 @@ onload = ()=>{
 
 function setLanguage(getLanguage){
   if(getLanguage === "espanol"){
-      bienvenidos.innerHTML = "Bienvenidos";
-      nuestrahistoria.innerHTML = "Nuestra historia";
-      enlaactualidad.innerHTML = "En la actualidad";
-      ubicacion.innerHTML = "Ubicación";
-     	contacto.innerHTML = "Contacto";
-      sementales.innerHTML = "Sementales";
-      caballos.innerHTML = "Caballos";
-      yeguas.innerHTML = "Yeguas";
-      enventa.innerHTML = "En venta";
-      vendidos.innerHTML = "Vendidos";
-      nuestrosanimales.innerHTML = "Nuestros animales";
-      bienvenidostitulo.innerHTML = "Bienvenidos";
-      bienvenidostexto1.innerHTML = "Desde esta página web,hemos tratado de recopilar la información que te pueda ser útil para darte a conocer nuestro trabajo: Criar caballos de Pura Raza Española. Un caballo con las hechuras propias del patrón racial y la funcionalidad que es demandada hoy en día por jinetes y aficionados. Porque la Pura Raza Española es una de las más apreciadas a nivel mundial. Le distinguen su nobleza y su belleza y destaca su carácter y su entrega en el trabajo diario. Así son los caballos de Yeguada Molero Malo.";
-  	  bienvenidostitulo2.innerHTML = "Sementales en Parada Pública";
-      bienvenidostexto2.innerHTML = "En Yeguada Molero Malo, ponemos a disposición de nuestros amigos ganaderos y aficionados en general, un plantel de sementales de Pura Raza Española en Parada Pública. Creemos que, ofreciendo el caudal genético de estos ejemplares seleccionados,  contribuimos a la mejora de la Pura Raza Española.";
-  	  alprincipio.innerHTML = "Al principio";
-      alprincipio1.innerHTML = "Fue hacia finales de los ochenta cuando pasamos de ir a clases de equitación con nuestros hijos, a descubrir y enamorarnos del Pura Raza Española y empezar a criarlo.Primero llegó una punta de yeguas procedentes de dos líneas distintas: don Virgilio Fernández de la Vega y don José Luis de la Escalera. Al poco tiempo llegaría otra partida de yeguas esta vez sólo de línea Escalera.Cubríamos con dos sementales, uno para cada línea: ÁLAMO III, cerrado en bocao, hijo de Naranjero V, para las yeguas de  Virgilio; MISTERIOSO, con el hierro de Escalera, hijo de Vinatero III, para sus hermanas. Poco a poco, las Escalera fueron ganando terreno.Cuando las hijas de Misterioso empezaron a ser yeguas, llegó SUPERIOR IV, de hierro Escalera de nuevo, hijo de Faraón XXIV, imprimiendo su carácter y belleza en la yeguada.";
-      alprincipio2.innerHTML = "Para los productos de Superior IV buscamos sangre nueva en la línea Guardiola. Cuando conocimos a EFUSIVO, hijo de Centella V y Efusiva II, ambos multipremiados en SICAB, nos dimos cuenta de que aquel caballo podía aportarnos mucho en casa.Y así fue, Efusivo está dando aún hoy en día animales espectaculares morfológica y funcionalmente. Después con nuestra apuesta por la capa negra llegó VELETO, hijo de Doctor IX de Maria Fernanda. Hoy en día sus hijas son fantásticas madres.Con el crecimiento de la yeguada, fuimos introducioendo nuevos y jóvenes sementales procedentes de nuestras madres y los sementales utilizados. FUMADOR V, hijo de Efusivo  y  BERBERISCO XII, hijo de Estudioso XI; siguiero con la línea Guardiola. ";
-      alprincipio3.innerHTML = "En el afán de buscar funcionalidad y raza, así como talla y carácter incorporamos también la línea de don Salvador Sánchez Barbudo con NOVELERO XXXII, posiblemente uno de los mejores sementales alazanes del momento.Este caballo, además de una morfologia importante, con unos sólidos suelos y buenas lineas superiores, nos aportó unos movimientos desgraciadamente fuera de lo común en el caballo español.Aparte de la amplitud y cadencia de estos, destacan por su suspensión, la impulsión del tercio posterior y la facilidad en las espaldas. ";
-      instalaciones.innerHTML = "Instalaciones";
-    instalaciones1.innerHTML = "Nuestros productos se crían en régimen de libertad controlada, tenemos unos amplios cercados para que los potros se ejerciten a sus anchas hasta que llegue el momento del trabajo. En nuestra finca 'Valdeherreros Alto', lo primordial son ellos y se programan los cultivos de cereales y los barbechos en función de sus necesidades. Todo gira en torno a su bienestar.";
-  	instalaciones2.innerHTML = "Para cuando llega la hora del trabajo, todas nuestras instalaciones son de reciente construcción y están adaptadas para darles a nuestros animales la mayor comodidad posible. Entre ellas destacamos:";
-    instalaciones4.innerHTML = "800 m2 de naves para yeguas.<br>400m2 de naves para potros.<br>700m2 de graneros y pajares.<br>Guadarnés.<br>Ducha cubierta.<br>Ducha exterior.";
-    instalaciones3.innerHTML = "Un picadero al aire libre.<br>Una pista de doma reglamentaria al aire libre.<br>Una pista de doma cubierta.<br>Quince boxes interiores.<br>Corraletas exteriores.<br>Tres Boxes adaptados como parideras.<br>Dos potros para la exploración veterinaria.";
-		osesperamos.innerHTML = "Os esperamos...";
-		osesperamos1.innerHTML = "Nuestros animales cumplen un programa de entrenamiento diario, por lo que en caso de que decidas visitarnos, te agradeceremos que conciertes una visita y así podremos atenderte como te mereces.";
-    contacto.innerHTML = "Contacto";
-    contacto1.innerHTML = "Desde esta web, os hemos querido dar una primera impresión de quién somos y qué hacemos. Si estáis interesados en nuestros animales, os podemos enviar más información, fotografias y videos sin ningún compromiso.<br>YEGUADA MOLERO MALO<br>Finca Valdeherreros Alto13370<br> Calzada de Calatrava.<br>CIUDAD REAL<br>Teléfonos- 926 338 203<br>Móviles. 680 422 844 - 680 422 845<br>Código REGA ES130270000146<br>email. info@yeguadamolero.es<br>y en el Google Earth nos puedes encontrar en:Latitud 38º 38'52.74'' y Longitud 3º 39' 13.29'' O";
+	  
+/*Navbar*/
+bienvenidos.innerHTML = "Bienvenidos";
+nuestrahistoria.innerHTML = "Nuestra historia";
+enlaactualidad.innerHTML = "En la actualidad";
+ubicacion.innerHTML = "Ubicación";
+contacto.innerHTML = "Contacto";
+sementales.innerHTML = "Sementales";
+caballos.innerHTML = "Caballos";
+yeguas.innerHTML = "Yeguas";
+enventa.innerHTML = "En venta";
+vendidos.innerHTML = "Vendidos";
+nuestrosanimales.innerHTML = "Nuestros animales";
+bienvenidostitulo.innerHTML = "Bienvenidos";
+bienvenidostexto1.innerHTML = "Desde esta página web,hemos tratado de recopilar la información que te pueda ser útil para darte a conocer nuestro trabajo: Criar caballos de Pura Raza Española. Un caballo con las hechuras propias del patrón racial y la funcionalidad que es demandada hoy en día por jinetes y aficionados. Porque la Pura Raza Española es una de las más apreciadas a nivel mundial. Le distinguen su nobleza y su belleza y destaca su carácter y su entrega en el trabajo diario. Así son los caballos de Yeguada Molero Malo.";
+bienvenidostitulo2.innerHTML = "Sementales en Parada Pública";
+bienvenidostexto2.innerHTML = "En Yeguada Molero Malo, ponemos a disposición de nuestros amigos ganaderos y aficionados en general, un plantel de sementales de Pura Raza Española en Parada Pública. Creemos que, ofreciendo el caudal genético de estos ejemplares seleccionados,  contribuimos a la mejora de la Pura Raza Española.";
+  	  
+/*Nuestra historia*/
+alprincipio.innerHTML = "Al principio";
+alprincipio1.innerHTML = "Fue hacia finales de los ochenta cuando pasamos de ir a clases de equitación con nuestros hijos, a descubrir y enamorarnos del Pura Raza Española y empezar a criarlo.Primero llegó una punta de yeguas procedentes de dos líneas distintas: don Virgilio Fernández de la Vega y don José Luis de la Escalera. Al poco tiempo llegaría otra partida de yeguas esta vez sólo de línea Escalera.Cubríamos con dos sementales, uno para cada línea: ÁLAMO III, cerrado en bocao, hijo de Naranjero V, para las yeguas de  Virgilio; MISTERIOSO, con el hierro de Escalera, hijo de Vinatero III, para sus hermanas. Poco a poco, las Escalera fueron ganando terreno.Cuando las hijas de Misterioso empezaron a ser yeguas, llegó SUPERIOR IV, de hierro Escalera de nuevo, hijo de Faraón XXIV, imprimiendo su carácter y belleza en la yeguada.";
+alprincipio2.innerHTML = "Para los productos de Superior IV buscamos sangre nueva en la línea Guardiola. Cuando conocimos a EFUSIVO, hijo de Centella V y Efusiva II, ambos multipremiados en SICAB, nos dimos cuenta de que aquel caballo podía aportarnos mucho en casa.Y así fue, Efusivo está dando aún hoy en día animales espectaculares morfológica y funcionalmente. Después con nuestra apuesta por la capa negra llegó VELETO, hijo de Doctor IX de Maria Fernanda. Hoy en día sus hijas son fantásticas madres.Con el crecimiento de la yeguada, fuimos introducioendo nuevos y jóvenes sementales procedentes de nuestras madres y los sementales utilizados. FUMADOR V, hijo de Efusivo  y  BERBERISCO XII, hijo de Estudioso XI; siguiero con la línea Guardiola. ";
+alprincipio3.innerHTML = "En el afán de buscar funcionalidad y raza, así como talla y carácter incorporamos también la línea de don Salvador Sánchez Barbudo con NOVELERO XXXII, posiblemente uno de los mejores sementales alazanes del momento.Este caballo, además de una morfologia importante, con unos sólidos suelos y buenas lineas superiores, nos aportó unos movimientos desgraciadamente fuera de lo común en el caballo español.Aparte de la amplitud y cadencia de estos, destacan por su suspensión, la impulsión del tercio posterior y la facilidad en las espaldas. ";
+	  
+	  
+instalaciones.innerHTML = "Instalaciones";
+instalaciones1.innerHTML = "Nuestros productos se crían en régimen de libertad controlada, tenemos unos amplios cercados para que los potros se ejerciten a sus anchas hasta que llegue el momento del trabajo. En nuestra finca 'Valdeherreros Alto', lo primordial son ellos y se programan los cultivos de cereales y los barbechos en función de sus necesidades. Todo gira en torno a su bienestar.";
+instalaciones2.innerHTML = "Para cuando llega la hora del trabajo, todas nuestras instalaciones son de reciente construcción y están adaptadas para darles a nuestros animales la mayor comodidad posible. Entre ellas destacamos:";
+instalaciones4.innerHTML = "800 m2 de naves para yeguas.<br>400m2 de naves para potros.<br>700m2 de graneros y pajares.<br>Guadarnés.<br>Ducha cubierta.<br>Ducha exterior.";
+instalaciones3.innerHTML = "Un picadero al aire libre.<br>Una pista de doma reglamentaria al aire libre.<br>Una pista de doma cubierta.<br>Quince boxes interiores.<br>Corraletas exteriores.<br>Tres Boxes adaptados como parideras.<br>Dos potros para la exploración veterinaria.";
+osesperamos.innerHTML = "Os esperamos...";
+osesperamos1.innerHTML = "Nuestros animales cumplen un programa de entrenamiento diario, por lo que en caso de que decidas visitarnos, te agradeceremos que conciertes una visita y así podremos atenderte como te mereces.";
+contacto.innerHTML = "Contacto";
+contacto1.innerHTML = "Desde esta web, os hemos querido dar una primera impresión de quién somos y qué hacemos. Si estáis interesados en nuestros animales, os podemos enviar más información, fotografias y videos sin ningún compromiso.<br>YEGUADA MOLERO MALO<br>Finca Valdeherreros Alto13370<br> Calzada de Calatrava.<br>CIUDAD REAL<br>Teléfonos- 926 338 203<br>Móviles. 680 422 844 - 680 422 845<br>Código REGA ES130270000146<br>email. info@yeguadamolero.es<br>y en el Google Earth nos puedes encontrar en:Latitud 38º 38'52.74'' y Longitud 3º 39' 13.29'' O";
   }else if(getLanguage ==="english"){
-      bienvenidos.innerHTML = "Welcome";
-      nuestrahistoria.innerHTML = "Our history";
-      enlaactualidad.innerHTML = "Nowadays";
-      ubicacion.innerHTML = "Location";
-     	contacto.innerHTML = "Contact";
-      sementales.innerHTML = "Stallions";
-      caballos.innerHTML = "Horses";
-      yeguas.innerHTML = "Mares";
-      enventa.innerHTML = "On sale";
-      vendidos.innerHTML = "Sold";
-      nuestrosanimales.innerHTML = "Our animals";
-      bienvenidostitulo.innerHTML = "Welcome";
-      bienvenidostexto1.innerHTML = "From this website, we have tried to collect the information that could be useful to let you know our work: Raising Purebred Spanish horses. A horse with the makings own racial pattern and functionality that is demanded today by riders and fans. Purebred Because Spanish is one of the most appreciated worldwide. We distinguish its nobility and beauty and highlight its character and its delivery in the daily work. So Stud horses are Molero Malo.";
-  	  bienvenidostitulo2.innerHTML = "Stop Stallions at Public";
-      bienvenidostexto2.innerHTML = "In Stud Molero Malo, we offer our friends and fans in general farmers, a team of Spanish thoroughbred stallions Public Parada. We believe that offering the gene pool of these selected examples,  we contribute to the improvement of Purebred Spanish. ";
-  	  alprincipio.innerHTML = "Initially";
-      alprincipio1.innerHTML = "It was the late eighties when we go to riding lessons with our children, to discover and fall in love with the Spanish Purebred and begin to raise him. First tip mares came from two different lines: Don Virgilio Fernandez de la Vega and Don José Luis de la Escalera. Soon another batch of mares come this time only ladder line. We covered with two stallions, one for each line: POPLAR III, closed in bocao, son of Naranjero V, for mares of Virgil, MYSTERIOUS, with iron staircase, son of Vintner III, for his sisters. Gradually, the staircase were gaining ground. When the daughters of Mystery began to be mares, came SUPERIOR IV iron ladder again, son of Pharaoh XXIV, printing its character and beauty in the stud.";
-      alprincipio2.innerHTML = "Superior Products To seek new blood IV line Guardiola. When we met effusive, son of Centella V and Effusive II, both multiplatinum in SICAB, we realized that this horse could tell us much at home. And so, Effusive is giving even today morphologically and functionally spectacular animals. After our commitment to black cape came vane, son of Maria Fernanda Doctor IX. Today mothers daughters are fantastic. With the growth of the stud, we introducioendo new young stallions from our mothers and sires used. SMOKING V, son of Effusive and Berber XII, XI Scholar son; siguiero line with Guardiola. ";
-      alprincipio3.innerHTML = "In an effort to find and breed functionality and incorporate character size and also the line of Don Salvador Sánchez Bearded with Novelero XXXII, possibly one of the best stallions steeds of time. This horse, plus a significant morphology, with solid lines and good top soil, gave us some moves unfortunately unusual in the Spanish horse. Apart from the extent and timing of these, distinguished by their suspension, rear third drive and easy on the back. ";
-      instalaciones.innerHTML = "Facilities";
-    instalaciones1.innerHTML = "Our products are raised in controlled freedom regime, we have a large fenced for the Colts are exercised at home until the time of labor. On our farm 'Valdeherreros High', the bottom line is they are programmed and cereal crops and fallow land according to their needs. Everything revolves around your being.";
-  	instalaciones2.innerHTML = "When it comes time to work, all our facilities are newly built and are adapted to give our animals the best possible comfort.";
-    instalaciones4.innerHTML = "800 m2 of warehouses for mares.<br>Ships 400m2 foals.<br>700m2 of barns and haystacks.<br>Guadarnés.<br>Shower cover.<br>Outdoor shower.";
-    instalaciones3.innerHTML = "An outdoor riding.<br>A regulation dressage arena outdoors.<br>An indoor dressage arena.<br>Fifteen inner boxes.<br>Outdoor pens.<br>Three Boxes adapted as farrowing.<br>Two ponies for veterinary examination.";
-		osesperamos.innerHTML = "I hope ...";
-		osesperamos1.innerHTML = "Our animals met daily training program, so if you decide to visit, I appreciate it conciertes a visit so we can serve you as you deserve.";
-    contacto.innerHTML = "Contact";
-    contacto1.innerHTML = "From this web, we wanted to show you who we are. If you are interested about our animals, we can share more information with you, photos and videos with no compromise.<br>YEGUADA MOLERO MALO<br>Finca Valdeherreros Alto13370<br> Calzada de Calatrava.<br>CIUDAD REAL<br>Phone- 926 338 203<br>Mobile phone. 680 422 844 - 680 422 845<br>REGA Code ES130270000146<br>email. info@yeguadamolero.es<br>and you can find us on Google Earth: Latitud 38º 38'52.74'' y Longitud 3º 39' 13.29'' O";
+/*Navbar*/
+bienvenidos.innerHTML = "Welcome";
+nuestrahistoria.innerHTML = "Our history";
+enlaactualidad.innerHTML = "Nowadays";
+ubicacion.innerHTML = "Location";
+contacto.innerHTML = "Contact";
+sementales.innerHTML = "Stallions";
+caballos.innerHTML = "Horses";
+yeguas.innerHTML = "Mares";
+enventa.innerHTML = "On sale";
+vendidos.innerHTML = "Sold";
+nuestrosanimales.innerHTML = "Our animals";
+bienvenidostitulo.innerHTML = "Welcome";
+bienvenidostexto1.innerHTML = "From this website, we have tried to collect the information that could be useful to let you know our work: Raising Purebred Spanish horses. A horse with the makings own racial pattern and functionality that is demanded today by riders and fans. Purebred Because Spanish is one of the most appreciated worldwide. We distinguish its nobility and beauty and highlight its character and its delivery in the daily work. So Stud horses are Molero Malo.";
+bienvenidostitulo2.innerHTML = "Stop Stallions at Public";
+bienvenidostexto2.innerHTML = "In Stud Molero Malo, we offer our friends and fans in general farmers, a team of Spanish thoroughbred stallions Public Parada. We believe that offering the gene pool of these selected examples,  we contribute to the improvement of Purebred Spanish. ";
+alprincipio.innerHTML = "Initially";
+alprincipio1.innerHTML = "It was the late eighties when we go to riding lessons with our children, to discover and fall in love with the Spanish Purebred and begin to raise him. First tip mares came from two different lines: Don Virgilio Fernandez de la Vega and Don José Luis de la Escalera. Soon another batch of mares come this time only ladder line. We covered with two stallions, one for each line: POPLAR III, closed in bocao, son of Naranjero V, for mares of Virgil, MYSTERIOUS, with iron staircase, son of Vintner III, for his sisters. Gradually, the staircase were gaining ground. When the daughters of Mystery began to be mares, came SUPERIOR IV iron ladder again, son of Pharaoh XXIV, printing its character and beauty in the stud.";
+alprincipio2.innerHTML = "Superior Products To seek new blood IV line Guardiola. When we met effusive, son of Centella V and Effusive II, both multiplatinum in SICAB, we realized that this horse could tell us much at home. And so, Effusive is giving even today morphologically and functionally spectacular animals. After our commitment to black cape came vane, son of Maria Fernanda Doctor IX. Today mothers daughters are fantastic. With the growth of the stud, we introducioendo new young stallions from our mothers and sires used. SMOKING V, son of Effusive and Berber XII, XI Scholar son; siguiero line with Guardiola. ";
+alprincipio3.innerHTML = "In an effort to find and breed functionality and incorporate character size and also the line of Don Salvador Sánchez Bearded with Novelero XXXII, possibly one of the best stallions steeds of time. This horse, plus a significant morphology, with solid lines and good top soil, gave us some moves unfortunately unusual in the Spanish horse. Apart from the extent and timing of these, distinguished by their suspension, rear third drive and easy on the back. ";
+instalaciones.innerHTML = "Facilities";
+instalaciones1.innerHTML = "Our products are raised in controlled freedom regime, we have a large fenced for the Colts are exercised at home until the time of labor. On our farm 'Valdeherreros High', the bottom line is they are programmed and cereal crops and fallow land according to their needs. Everything revolves around your being.";
+instalaciones2.innerHTML = "When it comes time to work, all our facilities are newly built and are adapted to give our animals the best possible comfort.";
+instalaciones4.innerHTML = "800 m2 of warehouses for mares.<br>Ships 400m2 foals.<br>700m2 of barns and haystacks.<br>Guadarnés.<br>Shower cover.<br>Outdoor shower.";
+instalaciones3.innerHTML = "An outdoor riding.<br>A regulation dressage arena outdoors.<br>An indoor dressage arena.<br>Fifteen inner boxes.<br>Outdoor pens.<br>Three Boxes adapted as farrowing.<br>Two ponies for veterinary examination.";
+osesperamos.innerHTML = "I hope ...";
+osesperamos1.innerHTML = "Our animals met daily training program, so if you decide to visit, I appreciate it conciertes a visit so we can serve you as you deserve.";
+contacto.innerHTML = "Contact";
+contacto1.innerHTML = "From this web, we wanted to show you who we are. If you are interested about our animals, we can share more information with you, photos and videos with no compromise.<br>YEGUADA MOLERO MALO<br>Finca Valdeherreros Alto13370<br> Calzada de Calatrava.<br>CIUDAD REAL<br>Phone- 926 338 203<br>Mobile phone. 680 422 844 - 680 422 845<br>REGA Code ES130270000146<br>email. info@yeguadamolero.es<br>and you can find us on Google Earth: Latitud 38º 38'52.74'' y Longitud 3º 39' 13.29'' O";
   }
   else if(getLanguage ==="deutsch"){
-      bienvenidos.innerHTML = "Willkommen";
+	  /*Navbar*/
+	  bienvenidos.innerHTML = "Willkommen";
       nuestrahistoria.innerHTML = "Der Anfang";
       enlaactualidad.innerHTML = "Aktuell";
       ubicacion.innerHTML = "Installationen";
