@@ -3,6 +3,22 @@ let espanol = document.getElementById("espanol");
 let english = document.getElementById("english");
 let deutsch = document.getElementById("deutsch");
 
+
+/* Elementos a traduccir */
+/*Navbar*/
+let bienvenidos = document.getElementById("bienvenidos");
+let nuestrahistoria = document.getElementById("nuestrahistoria");
+let enlaactualidad = document.getElementById("enlaactualidad");
+let ubicacion = document.getElementById("ubicacion");
+let contacto = document.getElementById("contacto");
+let sementales = document.getElementById("sementales");
+let caballos = document.getElementById("caballos");
+let yeguas = document.getElementById("yeguas");
+let enventa = document.getElementById("enventa");
+let vendidos = document.getElementById("vendidos");
+let nuestrosanimales = document.getElementById("nuestrosanimales");
+
+
 /* Eventos de click para cambiar idioma */
 espanol.onclick = ()=>{
     setLanguage("espanol");
